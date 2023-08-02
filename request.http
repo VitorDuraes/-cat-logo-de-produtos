@@ -1,0 +1,30 @@
+POST http://localhost:4001/products
+content-Type: application/json
+
+{
+    "name": "caderno all black",
+    "Price": 60.00
+}
+
+###
+
+GET http://localhost:4001/products
+
+
+
+###
+GET http://localhost:4001/products/81bd5efc-21dd-4297-b991-7282d14f524a
+
+
+###
+
+PUT  http://localhost:4001/products/af55fd46-7bd3-4bfb-882e-a76a86deb6ff
+content-Type: application/json
+
+{
+    "name": "Caderno 100 folhas preto",
+    "Price": 50.00
+}
+
+###
+DELETE http://localhost:4001/products/af55fd46-7bd3-4bfb-882e-a76a86deb6ff
